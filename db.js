@@ -7,7 +7,7 @@ async function connectMongo() {
   try {
     await client.connect();
     console.log('Connected to MongoDB');
-    return client.db('TweetsDB');
+    return client.db('ieeevisTweets');
   } catch (e) {
     console.error('MongoDB connection error:', e);
     process.exit(1);
