@@ -1,0 +1,23 @@
+{
+  "name": "redis-queries-for-tweetsdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snagadreem/Redis-Queries-for-TweetsDB.git"
+  },
+  "author": "Nathan Green",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Snagadreem/Redis-Queries-for-TweetsDB/issues"
+  },
+  "homepage": "https://github.com/Snagadreem/Redis-Queries-for-TweetsDB#readme",
+  "dependencies": {
+    "mongodb": "^6.11.0",
+    "redis": "^4.7.0"
+  }
+}
